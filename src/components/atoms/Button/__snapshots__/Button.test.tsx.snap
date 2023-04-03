@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders as "link" 1`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #21247F;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c0:active {
+  opacity: 0.8;
+  box-shadow: unset;
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background: #EAEBFA;
+}
+
+<button
+  class="c0"
+  styling="link"
+  theme="[object Object]"
+>
+  Secondary
+</button>
+`;
+
+exports[`<Button /> renders as "secondary" 1`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: #E9EAFA;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #21247F;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c0:active {
+  opacity: 0.8;
+  box-shadow: unset;
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background: #EEEFFB;
+}
+
+<button
+  class="c0"
+  styling="secondary"
+  theme="[object Object]"
+>
+  Secondary
+</button>
+`;
+
+exports[`<Button /> renders disabled 1`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  background-color: #3B46C4;
+  cursor: not-allowed;
+  color: #4A545E;
+  background: #F7F7F7;
+  border: 1px solid transparent;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+<button
+  class="c0"
+  disabled=""
+  styling="primary"
+  theme="[object Object]"
+>
+  Secondary
+</button>
+`;
+
+exports[`<Button /> renders loading as "primary" 1`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  background-color: #3B46C4;
+  cursor: not-allowed;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+<button
+  class="c0"
+  disabled=""
+  styling="primary"
+  theme="[object Object]"
+>
+  <img
+    aria-label="loading spinner"
+    height="20px"
+    src="spinner-negative.gif"
+    width="20px"
+  />
+   
+    
+  Loading
+</button>
+`;
+
+exports[`<Button /> renders loading as "secondary" 1`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: #E9EAFA;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #21247F;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  cursor: not-allowed;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+<button
+  class="c0"
+  disabled=""
+  styling="secondary"
+  theme="[object Object]"
+>
+  <img
+    aria-label="loading spinner"
+    height="20px"
+    src="spinner-action.gif"
+    width="20px"
+  />
+   
+    
+  Waiting
+</button>
+`;
+
+exports[`<Button /> renders loading as "secondary" 2`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: #E9EAFA;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #21247F;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  cursor: not-allowed;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+<button
+  class="c0"
+  disabled=""
+  styling="secondary"
+  theme="[object Object]"
+>
+  <img
+    aria-label="loading spinner"
+    height="20px"
+    src="spinner-action.gif"
+    width="20px"
+  />
+   
+    
+  Waiting
+</button>
+`;
+
+exports[`<Button /> renders wide 1`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  width: 100%;
+  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  background-color: #3B46C4;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c0:active {
+  opacity: 0.8;
+  box-shadow: unset;
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
+}
+
+<button
+  class="c0"
+  styling="primary"
+  theme="[object Object]"
+>
+  Secondary
+</button>
+`;
+
+exports[`<Button /> renders with no a11y violations 1`] = `
+.c0 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  background-color: #3B46C4;
+}
+
+.c0:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c0:active {
+  opacity: 0.8;
+  box-shadow: unset;
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
+}
+
+<button
+  class="c0"
+  styling="primary"
+  theme="[object Object]"
+>
+  Primary
+</button>
+`;

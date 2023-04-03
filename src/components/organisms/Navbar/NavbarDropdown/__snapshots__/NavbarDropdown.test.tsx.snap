@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavbarDropdown /> renders with no a11y violations 1`] = `
+.c5 {
+  position: relative;
+  z-index: 1;
+  margin: 12px 0 12px;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.c1 {
+  background-color: transparent;
+  font-size: inherit;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: inherit;
+  color: #3B46C4;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: none;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  color: auto;
+}
+
+.c1:hover,
+.c1:active {
+  color: #21247F;
+}
+
+.c1:hover svg path,
+.c1:active svg path {
+  fill: #21247F;
+}
+
+.c1:hover {
+  color: auto;
+}
+
+.c1:hover svg path {
+  fill: auto;
+}
+
+.c1:active {
+  color: auto;
+}
+
+.c1:active svg path {
+  fill: auto;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+}
+
+.c2:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 4px;
+}
+
+.c2:active,
+.c2:hover {
+  color: #21247F;
+  opacity: 0.88;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 8px;
+}
+
+.c4 {
+  display: none;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+@media (min-width:1280px) {
+  .c5 {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px 1px #D4D7D9;
+    border: 1px solid #EFEFEF;
+    border-radius: 12px;
+    min-width: 240px;
+    margin: 0;
+    padding: 8px 0;
+    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
+    -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%,-10%);
+    -ms-transform: translate(-50%,-10%);
+    transform: translate(-50%,-10%);
+  }
+
+  .c5:before {
+    content: '';
+    top: 1px;
+    left: 50%;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    -webkit-transform: translate(-50%,-50%) rotate(135deg);
+    -ms-transform: translate(-50%,-50%) rotate(135deg);
+    transform: translate(-50%,-50%) rotate(135deg);
+    background-color: inherit;
+    box-shadow: -1px 1px 0 0 #EFEFEF;
+  }
+}
+
+@media (max-width:1279px) {
+  .c2 {
+    width: 100%;
+    color: #2C3236;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width:1280px) {
+  .c4 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    -webkit-transition: -webkit-transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+<ul>
+  <li
+    class="c0"
+  >
+    <a
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="c1 c2"
+      color="#3B46C4"
+      data-automation="ZA.navbar-item"
+      href="#"
+      tabindex="0"
+    >
+      <span
+        class="c3"
+      >
+        test
+      </span>
+      <span
+        class="c4"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          color="#818F9B"
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          height="12px"
+          role="img"
+          viewBox="0 0 448 512"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </a>
+    <ul
+      aria-label="test"
+      class="c5"
+    >
+      <li>
+        <a
+          href="#"
+          tabindex="-1"
+        >
+          one
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          tabindex="-1"
+        >
+          two
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>
+`;

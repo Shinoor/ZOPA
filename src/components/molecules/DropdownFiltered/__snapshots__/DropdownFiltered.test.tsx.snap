@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownFiltered /> renders the Dropdown with options with no a11y violations 1`] = `
+.c1 {
+  display: block;
+  margin: 0 0 10px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.c0 {
+  max-width: 100%;
+  width: 100%;
+}
+
+.c3 {
+  position: relative;
+}
+
+.c6 {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 48px;
+  color: #818F9B;
+  right: 1px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.c5 {
+  width: 100%;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 16px;
+  padding-right: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4A545E;
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  -webkit-transition-property: border,box-shadow;
+  transition-property: border,box-shadow;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.c5:hover {
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E;
+}
+
+.c5:focus {
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E #009E8E;
+}
+
+.c5::-webkit-input-placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c5::placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c5:disabled {
+  -webkit-text-fill-color: #818F9B;
+  opacity: 1;
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  background-color: #F7F7F7;
+  cursor: not-allowed;
+}
+
+.c4 input {
+  margin-bottom: 0;
+}
+
+.c4 input + span {
+  cursor: pointer;
+}
+
+.c4 input:disabled + span {
+  cursor: not-allowed;
+}
+
+.c2 {
+  position: relative;
+}
+
+<div
+  class="c0"
+>
+  <div
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-labelledby="downshift-0-label"
+    role="combobox"
+  >
+    <label
+      class="c1"
+      for="text-id-test"
+      id="downshift-0-label"
+    >
+      Label
+    </label>
+    <div
+      class="c2"
+    >
+      <div
+        class="c3 c4"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-labelledby="downshift-0-label"
+          autocomplete="off"
+          class="c5"
+          id="text-id-test"
+          name="test"
+          value=""
+        />
+        <span
+          class="c6"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="open.menu"
+            class="svg-inline--fa fa-sort fa-w-10 "
+            color="#818F9B"
+            data-icon="sort"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DropdownFiltered /> renders the DropdownFiltered with options and a default selected value 1`] = `
+.c0 {
+  max-width: 100%;
+  width: 100%;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c5 {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 48px;
+  color: #818F9B;
+  right: 1px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.c4 {
+  width: 100%;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 16px;
+  padding-right: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4A545E;
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  -webkit-transition-property: border,box-shadow;
+  transition-property: border,box-shadow;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.c4:hover {
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E;
+}
+
+.c4:focus {
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E #009E8E;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: #D4D7D9;
+  opacity: 1;
+}
+
+.c4:disabled {
+  -webkit-text-fill-color: #818F9B;
+  opacity: 1;
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  background-color: #F7F7F7;
+  cursor: not-allowed;
+}
+
+.c3 input {
+  margin-bottom: 0;
+}
+
+.c3 input + span {
+  cursor: pointer;
+}
+
+.c3 input:disabled + span {
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: relative;
+}
+
+<div
+  class="c0"
+>
+  <div
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-labelledby="downshift-1-label"
+    role="combobox"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2 c3"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-labelledby="downshift-1-label"
+          autocomplete="off"
+          class="c4"
+          id="text-id-test"
+          name="test"
+          value="orange"
+        />
+        <span
+          class="c5"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="open.menu"
+            class="svg-inline--fa fa-sort fa-w-10 "
+            color="#818F9B"
+            data-icon="sort"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

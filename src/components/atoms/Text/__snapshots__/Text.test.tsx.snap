@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> it can render as an HTML p tag 1`] = `
+.c0 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+<p
+  class="c0"
+>
+  Text
+</p>
+`;
+
+exports[`<Text /> it can render as an HTML span tag 1`] = `
+.c0 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+<span
+  class="c0"
+>
+  Text
+</span>
+`;
+
+exports[`<Text /> renders without  a11y violations 1`] = `
+.c0 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    Text
+  </span>
+</div>
+`;

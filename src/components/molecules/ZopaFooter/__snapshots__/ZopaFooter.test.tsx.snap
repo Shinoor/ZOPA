@@ -1,0 +1,869 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ZopaFooter /> renders the component with no a11y violations 1`] = `
+.c20 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #4A545E;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+.c10 {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+  fill: #00D9C5;
+}
+
+.c6 {
+  background-color: transparent;
+  font-size: inherit;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: inherit;
+  color: #3B46C4;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: none;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  color: auto;
+}
+
+.c6:hover,
+.c6:active {
+  color: #21247F;
+}
+
+.c6:hover svg path,
+.c6:active svg path {
+  fill: #21247F;
+}
+
+.c6:hover {
+  color: auto;
+}
+
+.c6:hover svg path {
+  fill: auto;
+}
+
+.c6:active {
+  color: auto;
+}
+
+.c6:active svg path {
+  fill: auto;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-right: -12px;
+  margin-left: -12px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.c8 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.c11 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.c18 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+}
+
+.c4 {
+  text-transform: uppercase;
+}
+
+.c14 {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(facebook.svg) no-repeat;
+}
+
+.c15 {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(twitter.svg) no-repeat;
+}
+
+.c16 {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(instagram.svg) no-repeat;
+}
+
+.c17 {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(linkedin.svg) no-repeat;
+}
+
+.c19 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.c5 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.c9 {
+  margin-bottom: 40px;
+  text-align: center;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c12 {
+  margin-bottom: 32px;
+  text-align: center;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.c13 {
+  margin: 0 8px;
+}
+
+.c7 {
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7:hover,
+.c7:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (min-width:0px) {
+  .c3 {
+    display: block;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:576px) {
+  .c3 {
+    display: block;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:992px) {
+  .c3 {
+    display: block;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:0px) {
+  .c8 {
+    display: block;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .c8 {
+    display: block;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:0px) {
+  .c11 {
+    display: block;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .c11 {
+    display: block;
+    -webkit-flex: 0 0 33.33333333333333%;
+    -ms-flex: 0 0 33.33333333333333%;
+    flex: 0 0 33.33333333333333%;
+    max-width: 33.33333333333333%;
+  }
+}
+
+@media (min-width:0px) {
+  .c18 {
+    display: block;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .c18 {
+    display: block;
+    -webkit-flex: 0 0 41.66666666666667%;
+    -ms-flex: 0 0 41.66666666666667%;
+    flex: 0 0 41.66666666666667%;
+    max-width: 41.66666666666667%;
+  }
+}
+
+@media (min-width:576px) {
+  .c1 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1300px) {
+  .c1 {
+    max-width: 1224px;
+  }
+}
+
+@media (min-width:992px) {
+  .c19 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (min-width:992px) {
+  .c9 {
+    text-align: left;
+  }
+}
+
+@media (min-width:992px) {
+  .c12 {
+    text-align: right;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+}
+
+<footer
+  class="c0 pb-9 pt-10 l:pt-11"
+  data-automation="ZA.footer"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2 mb-6"
+      cols="12"
+      direction="row"
+    >
+      <div
+        class="c3 mb-8 s:mb-9"
+        cols="12"
+      >
+        <h4
+          class="c4 mb-4 s:mb-6 mt-0"
+        >
+          What we do
+        </h4>
+        <ul
+          class="c5"
+        >
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/car-finance"
+            >
+              Car hire purchase
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/loans/car-loans"
+            >
+              Car loans
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/loans/debt-consolidation"
+            >
+              Debt consolidation loans
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/loans/home-improvement"
+            >
+              Home improvement loans
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/loans/wedding"
+            >
+              Wedding loans
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/credit-card"
+            >
+              Credit cards
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/smart-saver"
+            >
+              Smart Saver
+            </a>
+          </li>
+          <li>
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/savings-accounts"
+            >
+              Fixed Term Savings
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="c3 mb-8 s:mb-9"
+        cols="12"
+      >
+        <h4
+          class="c4 mb-4 s:mb-6 mt-0"
+        >
+          About Zopa
+        </h4>
+        <ul
+          class="c5"
+        >
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/about"
+            >
+              About us
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/about/our-story"
+            >
+              Our story
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/about/board"
+            >
+              Meet the board
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/about/leadership"
+            >
+              Meet the leadership team
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/pledge2025"
+            >
+              Fintech Pledge 2025
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/investor-information"
+            >
+              Annual Reports and Pillar 3
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/about/awards"
+            >
+              Awards
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/about/careers"
+            >
+              Careers
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/blog"
+            >
+              Blog
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/contact/complaints"
+            >
+              Complaints
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/about/press"
+            >
+              Press office
+            </a>
+          </li>
+          <li>
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/invest"
+            >
+              Peer-to-peer investments
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="c3 mb-8 s:mb-9"
+        cols="12"
+      >
+        <h4
+          class="c4 mb-4 s:mb-6 mt-0"
+        >
+          Legal
+        </h4>
+        <ul
+          class="c5"
+        >
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/privacy-notice"
+            >
+              Privacy notice
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/cookie-policy"
+            >
+              Cookie policy
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/conflicts-policy"
+            >
+              Conflicts policy
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/modern-slavery"
+            >
+              Modern slavery
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/terms-of-use"
+            >
+              Terms of use
+            </a>
+          </li>
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/investor-principles"
+            >
+              Investor principles
+            </a>
+          </li>
+          <li>
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/remuneration"
+            >
+              Remuneration
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="c3 mb-8 s:mb-9"
+        cols="12"
+      >
+        <h4
+          class="c4 mb-4 s:mb-6 mt-0"
+        >
+          Navigation
+        </h4>
+        <ul
+          class="c5"
+        >
+          <li
+            class="mb-4"
+          >
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/help"
+            >
+              Help
+            </a>
+          </li>
+          <li>
+            <a
+              class="c6 c7"
+              color="#3B46C4"
+              href="https://www.zopa.com/sitemap"
+            >
+              Sitemap
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="c2"
+      cols="12"
+      direction="row"
+    >
+      <div
+        class="c8 c9"
+        cols="12"
+      >
+        <a
+          class="c6 c7"
+          color="#3B46C4"
+          href="https://www.zopa.com"
+          title="Logo"
+        >
+          <svg
+            aria-label="zopa logo"
+            height="30px"
+            role="img"
+            version="1.1"
+            viewBox="0 0 208 38"
+            width="165px"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <title>
+              Zopa Logo
+            </title>
+            <g>
+              <path
+                class="c10"
+                d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div
+        class="c11 c12"
+        cols="12"
+      >
+        <a
+          aria-label="Facebook"
+          class="c6 c13"
+          color="#3B46C4"
+          href="https://facebook.com/zopa"
+          rel="noopener"
+          target="_blank"
+          title="Facebook opens in a new tab"
+        >
+          <span
+            class="c14"
+          />
+        </a>
+        <a
+          aria-label="Twitter"
+          class="c6 c13"
+          color="#3B46C4"
+          href="https://twitter.com/zopa"
+          rel="noopener"
+          target="_blank"
+          title="Twitter opens in a new tab"
+        >
+          <span
+            class="c15"
+          />
+        </a>
+        <a
+          aria-label="Instagram"
+          class="c6 c13"
+          color="#3B46C4"
+          href="https://www.instagram.com/Zopamoney/"
+          rel="noopener"
+          target="_blank"
+          title="Instagram opens in a new tab"
+        >
+          <span
+            class="c16"
+          />
+        </a>
+        <a
+          aria-label="Linkedin"
+          class="c6 c13"
+          color="#3B46C4"
+          href="https://www.linkedin.com/company/zopa/"
+          rel="noopener"
+          target="_blank"
+          title="Linkedin opens in a new tab"
+        >
+          <span
+            class="c17"
+          />
+        </a>
+      </div>
+      <div
+        class="c18 c19"
+        cols="12"
+      >
+        <p
+          class="c20 mb-4"
+          color="#4A545E"
+        >
+          Zopa Bank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority, and entered on the Financial Services Register (800542). Zopa Bank Limited (10627575) is incorporated in England & Wales and has its registered office at: 1st Floor, Cottons Centre, Tooley Street, London, SE1 2QG.
+        </p>
+        <p
+          class="c20 mb-4"
+          color="#4A545E"
+        >
+          © Zopa Bank Limited 
+          2025
+           All rights reserved. 'Zopa' is a trademark of Zopa Bank Limited.
+        </p>
+        <p
+          class="c20"
+          color="#4A545E"
+        >
+          Zopa is a member of Cifas – the UK’s leading anti-fraud association, and we are registered with the Office of the Information Commissioner (ZA275984).
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

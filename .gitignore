@@ -1,0 +1,16 @@
+# NPM #
+/node_modules
+.pnpm-debug.log
+
+# Used to test the build process
+styleguide/*
+!styleguide/styles/
+!styleguide/components
+
+/es
+/cjs
+/types
+
+coverage
+*.tsbuildinfo
+*.iml

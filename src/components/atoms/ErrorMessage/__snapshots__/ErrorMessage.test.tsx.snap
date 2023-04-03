@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorMessage /> renders the component with props with no a11y violations 1`] = `
+.c0 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px 16px;
+  color: #940700;
+  background-color: #FFDAD8;
+  font-size: 16px;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.c1 a {
+  font-size: 16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 a:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  font-size: 20px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+<span
+  class="c0 c1"
+  role="alert"
+>
+  <span
+    class="c2"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-minus-circle fa-w-16 pr-2"
+      color="#FF4539"
+      data-icon="minus-circle"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z"
+        fill="currentColor"
+      />
+    </svg>
+  </span>
+  Ops error !
+</span>
+`;

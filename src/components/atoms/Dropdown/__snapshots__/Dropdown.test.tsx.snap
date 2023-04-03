@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> renders the Dropdown with one option 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 24px;
+  background: transparent;
+  padding-right: 32px;
+  padding-left: 16px;
+  height: 50px;
+  border-radius: 8px;
+  color: #4A545E;
+  font-weight: 400;
+  border: 1px solid #818F9B;
+  background: transparent url(sort-solid.svg) no-repeat calc(100% - 13px) center;
+  background-size: 8px;
+  box-shadow: 0 0 4px 0 transparent;
+  -webkit-transition-property: border,box-shadow;
+  transition-property: border,box-shadow;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+.c0:focus,
+.c0:hover {
+  outline: none;
+  outline-width: 0;
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E;
+}
+
+.c0:disabled {
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  background-color: #F7F7F7;
+  cursor: not-allowed;
+}
+
+<select
+  class="c0"
+>
+  <option
+    class=""
+    value="first"
+  >
+    First value
+  </option>
+</select>
+`;
+
+exports[`<Dropdown /> renders the Dropdown with options 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 24px;
+  background: transparent;
+  padding-right: 32px;
+  padding-left: 16px;
+  height: 50px;
+  border-radius: 8px;
+  color: #4A545E;
+  font-weight: 400;
+  border: 1px solid #818F9B;
+  background: transparent url(sort-solid.svg) no-repeat calc(100% - 13px) center;
+  background-size: 8px;
+  box-shadow: 0 0 4px 0 transparent;
+  -webkit-transition-property: border,box-shadow;
+  transition-property: border,box-shadow;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+.c0:focus,
+.c0:hover {
+  outline: none;
+  outline-width: 0;
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E;
+}
+
+.c0:disabled {
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  background-color: #F7F7F7;
+  cursor: not-allowed;
+}
+
+<select
+  class="c0"
+>
+  <option
+    class=""
+    value="first"
+  >
+    First value
+  </option>
+  <option
+    class=""
+    value="second"
+  >
+    Second value
+  </option>
+</select>
+`;
+
+exports[`<Dropdown /> renders the Dropdown with options and a default selected value 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 24px;
+  background: transparent;
+  padding-right: 32px;
+  padding-left: 16px;
+  height: 50px;
+  border-radius: 8px;
+  color: #4A545E;
+  font-weight: 400;
+  border: 1px solid #818F9B;
+  background: transparent url(sort-solid.svg) no-repeat calc(100% - 13px) center;
+  background-size: 8px;
+  box-shadow: 0 0 4px 0 transparent;
+  -webkit-transition-property: border,box-shadow;
+  transition-property: border,box-shadow;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+.c0:focus,
+.c0:hover {
+  outline: none;
+  outline-width: 0;
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E;
+}
+
+.c0:disabled {
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  background-color: #F7F7F7;
+  cursor: not-allowed;
+}
+
+<select
+  class="c0"
+>
+  <option
+    class=""
+    value="otherValue"
+  >
+    Other Value
+  </option>
+  <option
+    class=""
+    selected=""
+    value="defaultValue"
+  >
+    Default value to be selected
+  </option>
+</select>
+`;
+
+exports[`<Dropdown /> renders the Dropdown with options passed through an array.map 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 24px;
+  background: transparent;
+  padding-right: 32px;
+  padding-left: 16px;
+  height: 50px;
+  border-radius: 8px;
+  color: #4A545E;
+  font-weight: 400;
+  border: 1px solid #818F9B;
+  background: transparent url(sort-solid.svg) no-repeat calc(100% - 13px) center;
+  background-size: 8px;
+  box-shadow: 0 0 4px 0 transparent;
+  -webkit-transition-property: border,box-shadow;
+  transition-property: border,box-shadow;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+.c0:focus,
+.c0:hover {
+  outline: none;
+  outline-width: 0;
+  border: 1px solid #009E8E;
+  box-shadow: 0 0 4px 0 #009E8E;
+}
+
+.c0:disabled {
+  border: 1px solid #818F9B;
+  box-shadow: 0 0 4px 0 transparent;
+  background-color: #F7F7F7;
+  cursor: not-allowed;
+}
+
+<select
+  class="c0"
+>
+  <option
+    class=""
+    value=""
+  >
+    Select a value
+  </option>
+  <option
+    class=""
+    value="value1"
+  >
+    value1
+  </option>
+  <option
+    class=""
+    value="value2"
+  >
+    value2
+  </option>
+</select>
+`;

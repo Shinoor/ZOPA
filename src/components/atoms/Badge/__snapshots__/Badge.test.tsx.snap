@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> renders with no a11y violations 1`] = `
+.c0 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+.c1 {
+  background-color: #EFEFEF;
+  color: #2C3236;
+  display: inline-block;
+  padding: 3px 10px;
+  white-space: nowrap;
+  border-radius: 12px;
+}
+
+<span
+  class="c0 c1"
+>
+  Content
+</span>
+`;
+
+exports[`<Badge /> renders with specific style 1`] = `
+.c0 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+.c1 {
+  background-color: #DDFDE5;
+  color: #17592B;
+  display: inline-block;
+  padding: 3px 10px;
+  white-space: nowrap;
+  border-radius: 12px;
+}
+
+<span
+  class="c0 c1"
+>
+  Content
+</span>
+`;
+
+exports[`<Badge /> renders without crashing 1`] = `
+.c0 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #2C3236;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+}
+
+.c1 {
+  background-color: #EFEFEF;
+  color: #2C3236;
+  display: inline-block;
+  padding: 3px 10px;
+  white-space: nowrap;
+  border-radius: 12px;
+}
+
+<span
+  class="c0 c1"
+>
+  Content
+</span>
+`;

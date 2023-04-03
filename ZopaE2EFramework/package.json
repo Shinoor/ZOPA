@@ -1,0 +1,28 @@
+{
+  "name": "zopae2eframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashBoardTest": " npm run test -- --record --key a4f20e79-8628-4692-9e11-931c2a521b47"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/results.json"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "multiple-cucumber-html-reporter": "^3.3.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.1",
+    "@cypress/browserify-preprocessor": "latest"
+  }
+}

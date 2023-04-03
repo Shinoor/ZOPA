@@ -1,0 +1,474 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Help /> renders the default Help component with no a11y violations 1`] = `
+.c6 {
+  margin: 0;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #818F9B;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  text-align: inherit;
+  display: block;
+}
+
+.c5 {
+  font-size: 28px;
+  line-height: 36px;
+  -webkit-letter-spacing: -0.45px;
+  -moz-letter-spacing: -0.45px;
+  -ms-letter-spacing: -0.45px;
+  letter-spacing: -0.45px;
+  margin: 0;
+  color: #2C3236;
+  text-align: inherit;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.c12 {
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-letter-spacing: -0.01px;
+  -moz-letter-spacing: -0.01px;
+  -ms-letter-spacing: -0.01px;
+  letter-spacing: -0.01px;
+  margin: 0;
+  color: #2C3236;
+  text-align: inherit;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.c3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.c7 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.c10 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c11 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-right: -12px;
+  margin-left: -12px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c14 {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c14 > a,
+.c14 > button {
+  margin-right: 16px;
+}
+
+.c14 > a:last-child,
+.c14 > button:last-child {
+  margin-right: 0;
+}
+
+.c13 {
+  color: #2C3236;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c8 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 12px;
+  box-shadow: 0 1px 0 0 #D4D7D9;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c8 > .c16 {
+  -webkit-flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
+}
+
+.c8 .zrc__card-heading {
+  font-size: 18px;
+}
+
+.c9 {
+  background-color: transparent;
+  padding: 16px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 {
+  background: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.c1 {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.c4 {
+  text-align: center;
+}
+
+.c15 {
+  outline: 0;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px 24px;
+  width: 100%;
+  background: #E9EAFA;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  color: #21247F;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c15:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c15:active {
+  opacity: 0.8;
+  box-shadow: unset;
+  border: 1px solid transparent;
+}
+
+.c15:hover {
+  background: #EEEFFB;
+}
+
+@media (min-width:0px) {
+  .c3 {
+    display: block;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:0px) {
+  .c7 {
+    display: block;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .c7 {
+    display: block;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:0px) {
+  .c10 {
+    display: block;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:0px) {
+  .c11 {
+    display: block;
+    -webkit-flex: 0 0 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+<div
+  class="c0 pt-4"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      cols="12"
+      direction="row"
+    >
+      <div
+        class="c3 c4"
+        cols="12"
+      >
+        <h3
+          class="c5 pb-6"
+        >
+          We're here to help
+        </h3>
+        <span
+          class="c6 pb-8"
+          color="#818F9B"
+        >
+          We can't take applications over the phone. 
+          <br />
+          UK residents only. Calls may be monitored or recorded
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      cols="12"
+      direction="row"
+    >
+      <div
+        class="c7 pb-6"
+        cols="12"
+      >
+        <div
+          class="c8"
+        >
+          <div
+            class="c9"
+          >
+            <div
+              class="c2"
+              cols="12"
+              direction="row"
+            >
+              <div
+                class="c10 c4"
+                cols="12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-phone fa-w-16 fa-3x "
+                  color="#009E8E"
+                  data-icon="phone"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <div
+                class="c11"
+                cols="12"
+              >
+                <h2
+                  class="c12 zrc__card-heading undefined"
+                  color="#2C3236"
+                >
+                  020 7580 6060
+                </h2>
+                <p
+                  class="c13"
+                >
+                  Monday - Friday 
+                  08:00 - 20:00
+                  , Saturday - Sunday 
+                  09:00 - 17:30
+                </p>
+              </div>
+            </div>
+            <div
+              class="c14"
+            >
+              <a
+                class="c15"
+                href="tel:+442075806060"
+              >
+                Call us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c7"
+        cols="12"
+      >
+        <div
+          class="c8"
+        >
+          <div
+            class="c9"
+          >
+            <div
+              class="c2"
+              cols="12"
+              direction="row"
+            >
+              <div
+                class="c10 c4"
+                cols="12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-envelope fa-w-16 fa-3x "
+                  color="#009E8E"
+                  data-icon="envelope"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <div
+                class="c11"
+                cols="12"
+              >
+                <h2
+                  class="c12 zrc__card-heading undefined"
+                  color="#2C3236"
+                >
+                  contactus@zopa.com
+                </h2>
+                <p
+                  class="c13"
+                >
+                  If your query is urgent, please contact our Team via phone.
+                </p>
+              </div>
+            </div>
+            <div
+              class="c14"
+            >
+              <a
+                class="c15"
+                href="mailto:contactus@zopa.com"
+              >
+                Email us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
